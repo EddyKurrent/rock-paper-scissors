@@ -1,5 +1,5 @@
 node {
-    def server = Artifactory.server 'mill-artifactory+xray'
+    def server = Artifactory.server 'artifactory+xray'
     def rtMaven = Artifactory.newMavenBuild()
     def buildInfo
 
